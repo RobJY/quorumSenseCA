@@ -9,7 +9,7 @@ javac quorumSenseCA.java
 Usage:
 + In the far left black panel labelled 'bacteria' you can left-click the mouse to create green critters and right-click 
   to create red critters.  This panel shows the critters.
-+ Press start button start critters growing and fighting
++ Press start button to start critters growing and fighting
 + Press stop button to stop critters
 + If you click with the mouse in the 'bacteria' field while simulation is running, the simulation will stop.  Just hit 
   the start button to start it up again.
