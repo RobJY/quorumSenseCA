@@ -8,10 +8,26 @@ import java.util.Random;
 import javax.swing.*;
 import javax.swing.event.*;
 
-/*
- * SliderDemo.java requires all the files in the images/doggy
- * directory.
- */
+// quorumSenseCA implements (as the name implies) a cellular automata model of 
+//   bacterial quorum sensing.
+//
+// Copyright 2014 Robert Young
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program (glp.txt).  
+// If not, see <http://www.gnu.org/licenses/>.
+//
+
 public class quorumSenseCA extends JPanel
     implements ActionListener, WindowListener, ChangeListener, MouseListener {
     //Set up animation parameters.
@@ -164,7 +180,7 @@ public class quorumSenseCA extends JPanel
 	add(p2);
 
 	JPanel p4 = new JPanel(new FlowLayout(FlowLayout.LEFT));
-	JLabel l4 = new JLabel("hormone threshold:");
+	JLabel l4 = new JLabel("autoinducer threshold:");
 	p4.add(l4);
 	htTF = new JTextField(5);
 	htTF.setText(Integer.toString(Hthresh));
