@@ -11,8 +11,8 @@ Usage:
   to create red critters.  This panel shows the critters.
 + Press start button to start critters growing and fighting
 + Press stop button to stop critters
-+ If you click with the mouse in the 'bacteria' field while simulation is running, the simulation will stop.  Just hit 
-  the start button to start it up again.
++ If you click with the mouse in the 'bacteria' field while simulation is running, the simulation will stop and a 
+  critter will be created.  Just hit the start button to start it up again.
 + The panel labeled 'autoinducers' shows the amount of a given autoinducer in each cell.
 + The panel labeled 'attack chemicals' shows the amount of a given attack chemical in each cell.  When the autoinducer
   level reaches a threshold in a cell the critter in that cell will release attack chemical.
