@@ -24,7 +24,7 @@ Usage:
                              making attack chemical. (0-255)
     - attack chemical threshold: amount of attack chemical that must be present in a given cell for the attack benefit
                                  and reproduction penalty to take effect. (0.0-1.0)
-    - attack chemical combat benefit: amount of benefit given to attacking critter when attack chemical threshold is     
-                                      reached. (0.0-1.0)
+    - attack chemical combat benefit: amount of benefit given to attacking critter when associated attack chemical       
+                                      threshold is reached. (0.0-1.0)
     - attack chemical reproduction penalty: decrease in reproduction probability for attacked critter when enemy attack
                                             chemical reaches threshold.
